@@ -1,0 +1,40 @@
+syntax ="proto3";
+package go_proto;
+
+option go_package ="/pb";
+
+service ProductClient {
+    rpc GetProduk(Empty) returns(Product);
+}
+
+message Empty{}
+
+message Product{
+    uint64 id = 1;
+    string nama_produk = 2;
+    string kategori = 3;
+    double harga = 4;
+    uint32 stok = 5;
+    string deskripsi = 6;
+    Spesifikasi spesifikasi = 7;
+    string merek = 8;
+    string tanggal_rilis = 9;
+    double rating = 10;
+    repeated Ulasan ulasan = 11;
+}
+
+message Spesifikasi{
+    string procesor = 1;
+    string ram = 2;
+    string penyimpanan = 3;
+    string layar = 4;
+    string grafis = 5;
+}
+
+message Ulasan{
+    uint64 id_ulasan = 1;
+    string nama_pelanggan = 2;
+    string tanggal_ulasan = 3;
+    string komentar = 4;
+    float rating = 5;
+}

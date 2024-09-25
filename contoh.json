@@ -1,0 +1,35 @@
+{
+    "id": 101,
+    "nama_produk": "Laptop Gaming",
+    "kategori": "Elektronik",
+    "harga": 15000000,
+    "stok": 25,
+    "deskripsi": "Laptop gaming dengan spesifikasi tinggi untuk pengalaman bermain game yang luar biasa.",
+    "spesifikasi": {
+      "prosesor": "Intel Core i7",
+      "ram": "16GB",
+      "penyimpanan": "1TB SSD",
+      "layar": "15.6 inci",
+      "grafis": "NVIDIA RTX 3060"
+    },
+    "merek": "BrandX",
+    "tanggal_rilis": "2023-07-15",
+    "rating": 4.5,
+    "ulasan": [
+      {
+        "id_ulasan": 1,
+        "nama_pelanggan": "Budi",
+        "tanggal_ulasan": "2023-07-20",
+        "komentar": "Laptopnya sangat cepat dan lancar untuk bermain game.",
+        "rating": 5
+      },
+      {
+        "id_ulasan": 2,
+        "nama_pelanggan": "Siti",
+        "tanggal_ulasan": "2023-07-22",
+        "komentar": "Desainnya keren tapi agak panas kalau dipakai lama.",
+        "rating": 4
+      }
+    ]
+  }
+  
